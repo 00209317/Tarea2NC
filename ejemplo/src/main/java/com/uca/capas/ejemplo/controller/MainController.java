@@ -29,7 +29,7 @@ public class MainController {
 		https://stackoverflow.com/questions/5270272/how-to-determine-day-of-week-by-passing-specific-date
 		*/
 		Calendar calendario = Calendar.getInstance();
-		calendario.set(month, day, year);
+		calendario.set(day, month, year);
 		int dayOfWeek = calendario.get(Calendar.DAY_OF_WEEK);
 		String dia;
 		switch (dayOfWeek) {
